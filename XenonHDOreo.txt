@@ -1,6 +1,6 @@
-04-03-2018
+07-03-2018
 - Initial Release by me
-- Fixed HW encoding/decoding (finally) & Improved stability of OMX 
+Fixed HW encoding/decoding (finally) & Improved stability of OMX 
 - Fixed most of the remaining random reboot issues
 - Updated media profiles and codecs config (More file formats should play now)
 - Fixed charging with device powered off
@@ -10,15 +10,5 @@
 - system partition now mounts early in boot proces (Should speed up boot a bit)
 - Fixed delay when turning on torch
 - Fingerprint sensor doesnt look for fingerprint while screen is off anymore(Moar battery and it was unreliable)
-- Added exFAT support for SD cards
-- Synced with AICP source
-
-09-03-2018
-- Enabled video stabilization
-- Fixed key configuration
-- Switched adb to FlashFS interface from legacy
-- Fixed issues with accelerometer auto rotation
-- even more OMX improvements
-- synced kernel defconfig with android-3.18-o-mr1 recommended config
-- Improvements to fingerprint sensor hal
-- audio and ril improvements
+- Added support for exfat on sdcards
+- Synced with XenonHD source
