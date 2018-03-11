@@ -1,0 +1,14 @@
+04-03-2018
+- Initial Release by me
+- Fixed HW encoding/decoding (finally) & Improved stability of OMX 
+- Fixed most of the remaining random reboot issues
+- Updated media profiles and codecs config (More file formats should play now)
+- Fixed charging with device powered off
+- Added support for korean device variants
+- NFC chip firmware now updates to latest provided firmware from drivers
+- Improvements to audio and ril hal (Check Ivan Meler's github if you really want to know)
+- system partition now mounts early in boot proces (Should speed up boot a bit)
+- Fixed delay when turning on torch
+- Fingerprint sensor doesnt look for fingerprint while screen is off anymore(Moar battery and it was unreliable)
+- Added exFAT support for SD cards
+- Synced with AICP source

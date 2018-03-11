@@ -1,0 +1,31 @@
+11-02-2018
+- Initial release
+
+16-02-2018
+- Fixed HW button backlights
+- Buttons can be customized in settings now.
+- Fixed video recording
+- Synced with RR sources
+- Disabled 'Panic Detection' (should mean that triple tapping the back button should be disabled)
+
+23-02-2018
+- Fixed HW encoding/decoding (finally, thanks Ivan_Meler!)
+- Updated media profiles and codecs config (More file formats should play now)
+- Synced with RR sources.
+
+25-02-2018
+- Re-disabled 'Panic Detection'
+- Synced with RR sources
+
+04-03-2018
+- Fixed charging with device powered off
+- Added support for korean device variants
+- NFC chip firmware now updates to latest provided firmware from drivers
+- Improvements to audio and ril hal (Check Ivan Meler's github if you really want to know)
+- system partition now mounts early in boot proces (Should speed up boot a bit)
+- Fixed delay when turning on torch
+- Fingerprint sensor doesnt look for fingerprint while screen is off anymore(Moar battery and it was unreliable)
+- Synced with RR source
+
+04-03-2018_r2
+- Added exFAT support for SD cards

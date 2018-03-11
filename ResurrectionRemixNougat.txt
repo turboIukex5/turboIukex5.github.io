@@ -1,0 +1,3 @@
+22-02-2018
+- Initial unofficial release based on Android 7.1.2 r36
+- Should be bug-free
