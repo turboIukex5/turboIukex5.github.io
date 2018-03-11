@@ -29,3 +29,13 @@
 
 04-03-2018_r2
 - Added exFAT support for SD cards
+
+11-03-2018
+- Enabled video stabilization
+- Fixed key configuration
+- Switched adb to FlashFS interface from legacy
+- Fixed issues with accelerometer auto rotation
+- even more OMX improvements
+- synced kernel defconfig with android-3.18-o-mr1 recommended config
+- Improvements to fingerprint sensor hal
+- audio and ril improvements
